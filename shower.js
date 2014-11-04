@@ -302,7 +302,7 @@ window.shower = (function(window, document, undefined) {
 	* @returns {Boolean}
 	*/
 	shower._applyTransform = function(transform) {
-		[
+		/**[
 			'WebkitTransform',
 			'MozTransform',
 			'msTransform',
@@ -310,7 +310,7 @@ window.shower = (function(window, document, undefined) {
 			'transform'
 		].forEach(function(prop) {
 				document.body.style[prop] = transform;
-		});
+		});**/
 
 		return true;
 	};
